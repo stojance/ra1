@@ -1,0 +1,45 @@
+{
+  "name": "ra1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "json-server": "^0.16.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.13.1",
+    "react-responsive-modal": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
+    "react-treebeard": "^3.2.4",
+    "reactstrap": "^8.6.0",
+    "use-file-upload": "^1.0.2"
+  },
+  "scripts": {
+    "start": "npm-run-all -p run-client run-api",
+    "start-old": "set PORT=4000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "run-client": "set PORT=4000 && react-scripts start",
+    "run-api": "json-server ./todos.json"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
