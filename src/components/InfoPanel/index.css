@@ -1,0 +1,15 @@
+.InfoPanel-details {
+    height: 150px;
+    visibility: visible;
+    transition: height 0.5s;
+    position: absolute;
+    z-index: 1000;
+    background-color:bisque;
+    padding: 10px;
+    overflow: auto;
+}
+
+.InfoPanel-details.InfoPanel-details-closed {
+    height: 0;
+    visibility: hidden;
+}

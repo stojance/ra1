@@ -1,0 +1,9 @@
+.loto-broj {
+    font-size: larger;
+    font-weight: bolder;
+}
+.loto-kombinacija {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 2px;
+}

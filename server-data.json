@@ -1,0 +1,152 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos": [
+    {
+      "id": 1,
+      "text": "finishing writing hooks chapter.."
+    },
+    {
+      "id": 2,
+      "text": "play with kids"
+    },
+    {
+      "id": 3,
+      "text": "read bible"
+    },
+    {
+      "id": 4,
+      "text": "green apple"
+    },
+    {
+      "id": 5,
+      "text": "#finishing writing hooks chapter"
+    },
+    {
+      "id": 6,
+      "text": "#play with kids"
+    },
+    {
+      "id": 7,
+      "text": "#read bible"
+    },
+    {
+      "id": 8,
+      "text": "#green apple"
+    },
+    {
+      "id": 9,
+      "text": "!finishing writing hooks chapter"
+    },
+    {
+      "id": 10,
+      "text": "!play with kids"
+    },
+    {
+      "id": 11,
+      "text": "!read bible"
+    },
+    {
+      "id": 12,
+      "text": "!green apple"
+    },
+    {
+      "id": 13,
+      "text": "*finishing writing hooks chapter"
+    },
+    {
+      "id": 14,
+      "text": "*play with kids"
+    },
+    {
+      "id": 15,
+      "text": "*read bible"
+    },
+    {
+      "id": 16,
+      "text": "*green apple"
+    },
+    {
+      "id": 17,
+      "text": "Finishing writing hooks chapter"
+    },
+    {
+      "id": 18,
+      "text": "Play with kids...."
+    },
+    {
+      "id": 19,
+      "text": "Read bible"
+    },
+    {
+      "id": 20,
+      "text": "Green apple :)"
+    },
+    {
+      "id": "abdce5fe-ff03-4342-a96f-f7d0b723c936",
+      "text": "qwerty"
+    },
+    {
+      "id": "731c6e60-3b01-47c0-ab6c-78e9f5ffe983",
+      "text": "asdfgh"
+    },
+    {
+      "id": "83c176b2-e3d1-427c-b8ee-55678c8ee582",
+      "text": "12345678"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "User 1",
+      "password": "111",
+      "fullName": "Јанко Јанков",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "id": 2,
+      "userName": "User 2",
+      "password": "222",
+      "fullName": "Рајко Рајков",
+      "roles": [
+        "Admin",
+        "Manager"
+      ]
+    },
+    {
+      "id": 3,
+      "userName": "User 3",
+      "password": "333",
+      "fullName": "Митко Митков",
+      "roles": [
+        "User"
+      ]
+    },
+    {
+      "id": 4,
+      "userName": "User 4",
+      "password": "444",
+      "fullName": "Петко Петков",
+      "roles": [
+        "User"
+      ]
+    }
+  ]
+}
